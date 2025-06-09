@@ -56,33 +56,158 @@ margin-right: 50px
 
 
 .name-lilo-stitch{
-  color: #eeeeee;
+    color: #eeeeee;
   font-weight: 700;
-  font-size: 25px;
- line-height: 20px;
-margin-right: 40px;
-margin-top: 45px
+  font-size: 23px;
+ line-height: 29px;
+margin-right: 90px;;
+text-overflow: initial;
+cursor: pointer;
+margin-top: 40px;
+overflow-wrap:break-word;
+white-space: normal;
+
+overflow-wrap: break-word;
+display: flex;
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
 
 }
+  
+
+.name-missao-impossivel{
+    color: #eeeeee;
+  font-weight: 700;
+  font-size: 23px;
+ line-height: 29px;
+margin-right: 70pxpx;;
+text-overflow: initial;
+cursor: pointer;
+margin-top: 40px;
+overflow-wrap:break-word;
+white-space: normal;
+
+overflow-wrap: break-word;
+display: flex;
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+
+
+
+}
+  
+
+  
 
 .img-missao-impossivel{
-   border-radius: 20px;
-  
-height: 60px;
-max-width: 400px;
-min-height: 300px;
-margin-left: 40px;
-position: relative;
 
+ border-radius: 20px;
+  height: 60px;
+  max-width: 400px;
+  min-height: 300px;
+  margin-left: 40px;
+  position: relative;
+  cursor: pointer;
 
 }
+ 
+ 
+
+
+
+
 
 .container{
-  display: flex;
+   display: flex;
 justify-content: flex-start;
 align-items: flex-start;
 flex-wrap: wrap;
 margin-left:20px;
-margin-right: 29px
-
+text-align: left;
+flex-wrap: wrap;
+cursor: pointer;
+color: #eeeeee;
+margin-right: 29px;
+  font-weight: 700;
+  overflow-wrap:break-word;
+white-space: normal;
+display: flex;
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+  font-size: 23px;
+ line-height: 29px;
+ text-overflow: initial;
 }
+ 
+
+
+.img-missao-impossivel:hover{
+  transform: scale(1.1);
+  cursor: pointer; transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  text-overflow: initial;
+}
+
+.img-lilo-stitch:hover{
+  transform: scale(1.1);
+  cursor: pointer; transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  text-overflow: initial;
+}
+
+
+ .name-premonicao-6{
+  color: #eeeeee;
+  font-weight: 700;
+  font-size: 28px;
+ line-height: 25px;
+margin: 26px;
+margin-right: 23px;;
+text-overflow: initial;
+cursor: pointer;
+margin-top: 55px;
+overflow-wrap:break-word;
+white-space: normal;
+overflow-wrap: break-word;
+display: flex;
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+
+ }
+
+
+.img-premonicao-6:hover{
+   transform: scale(1.1);
+  cursor: pointer; transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  text-overflow: initial;
+}
+ 
+
+
+.img-premonicao-6{
+  border-radius: 20px;
+  height: 60px;
+  max-width: 400px;
+  min-height: 300px;
+  margin-left: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
